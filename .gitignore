@@ -1,0 +1,16 @@
+# Python 生成的文件
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# 虚拟环境
+/.venv/
+
+# 开发环境
+/.claude/
+/.cursor/
+/.idea/
+/.vscode/
