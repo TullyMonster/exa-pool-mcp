@@ -75,7 +75,7 @@ async def make_exa_request(
     Returns:
         JSON response as formatted string or error message
     """
-    url = f"{EXA_POOL_BASE_URL}{endpoint}"
+    url = f"{EXA_POOL_BASE_URL.rstrip('/')}{endpoint}"
     headers = {
         "x-api-key": EXA_POOL_API_KEY,
         "Content-Type": "application/json",
